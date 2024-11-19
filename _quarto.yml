@@ -3,17 +3,32 @@ project:
 
 website:
   title: "GESIS"
+  favicon: logos/favicon.ico
   navbar:
-    left:
+    title: false
+    logo: logos/logo_gesis_en.png
+    favicon: 
+    logo-alt: "GESIS logo."
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
 
 format:
   html:
+    filters:
+      - classes.lua
     theme: brand
     css: styles.css
+    fontsize: 1rem
+    linestretch: 1.6
+    title-block-banner: logos/microsite.png
+    title-block-banner-color: '#fff'
+    anchor-sections: false
+    smooth-scrolling: true
     toc: true
+    toc-title: " "
+
 
 # Use the brand file for all documents in the project
 brand: _brand.yml

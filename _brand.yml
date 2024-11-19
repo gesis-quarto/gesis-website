@@ -19,6 +19,7 @@ color:
     gs-darkblue: "#003c78"
     gs-lightblue: "#1e8cc8"
     gs-pink: "#d20064"
+    gs-pink--50: "#80d20064"
     gs-lightblue--14: "#dfeff7"
     gs-darkblue--14: "#dbe3ec"
     gs-berry: "#642878"
@@ -84,3 +85,19 @@ typography:
     weight: 700
     color: gs-darkblue
     line-height: 2.1rem
+
+defaults:
+  bootstrap:
+    defaults:
+      navbar-bg: white
+      navbar-fg: $brand-gs-pink
+      body-color: black
+      link-color: $body-color
+      link-decoration: none
+      link-hover-decoration: none
+      h1-font-size: 3.1rem
+      h2-font-size: 2.1rem
+      h3-font-size: 1.5rem
+      h4-font-size: 1rem
+      h5-font-size: 1rem
+      default-border-radius: 1.5rem
