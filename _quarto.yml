@@ -1,0 +1,19 @@
+project:
+  type: website
+
+website:
+  title: "GESIS"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: brand
+    css: styles.css
+    toc: true
+
+# Use the brand file for all documents in the project
+brand: _brand.yml
