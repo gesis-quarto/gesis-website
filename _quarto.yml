@@ -13,12 +13,29 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+  page-footer:
+    left: |
+      **Standort Mannheim**  
+      GESIS - Leibniz-Institut für Sozialwissenschaften  
+      B6, 4-5  
+      68159 Mannheim  
+      Telefon: +49-(0)621-1246-0  
+      Fax: +49-(0)621-1246-100
+    center: |
+      **Standort Köln**  
+      GESIS - Leibniz-Institut für Sozialwissenschaften  
+      Unter Sachsenhausen 6-8  
+      50667 Köln  
+      Telefon: +49-(0)221-47694-0  
+      Fax: +49-(0)221-47694-199
+
+    right: |
+      ![GESIS ist ein Institut der Leibniz-Gemeinschaft](logos/leibniz_logo_en_white.svg)  
+      [Impressum](https://www.gesis.org/institut/impressum) [Datenschutz](https://www.gesis.org/institut/datenschutz)
 
 format:
   html:
-    filters:
-      - classes.lua
-    theme: brand
+    theme: [gesis-theme.scss,cerulean]
     css: styles.css
     fontsize: 1rem
     linestretch: 1.6
@@ -28,7 +45,3 @@ format:
     smooth-scrolling: true
     toc: true
     toc-title: " "
-
-
-# Use the brand file for all documents in the project
-brand: _brand.yml

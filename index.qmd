@@ -9,3 +9,53 @@ This is a Quarto website.
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ## More sections
+
+### subsection
+
+## Some more features
+
+### Tabset
+
+::: {.panel-tabset}
+
+## Page 1
+
+- testing
+- list
+- items
+
+## Page 2
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+:::
+
+### Callouts
+
+::: {.callout-note}
+Callout note
+:::
+
+::: {.callout-warning}
+Callout warning
+:::
+
+::: {.callout-important}
+Callout important
+:::
+
+::: {.callout-tip}
+Callout tip
+:::
+
+::: {.callout-caution}
+Callout caution
+:::
+
+:::{.gesis-card-orange}
+:::{.card-header}
+A GESIS card
+:::
+exists in orange,rust,turquoise, and berry. 
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+:::
