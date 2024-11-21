@@ -123,6 +123,9 @@ body {
 
 .navbar-brand {
     box-shadow: none;
+    &:hover {
+        box-shadow: none;
+    }
 }
 
 .navbar {
