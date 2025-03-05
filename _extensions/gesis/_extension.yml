@@ -1,0 +1,45 @@
+title: GESIS
+author: Raniere Silva
+version: 0.0.1
+quarto-required: ">=1.6.0"
+contributes:
+  project:
+    project:
+      type: website
+    website:
+      title: "GESIS"
+      favicon: logos/favicon.ico
+      navbar:
+        title: false
+        logo: logos/logo_gesis_en.png
+        favicon: 
+        logo-alt: "GESIS logo."
+        right:
+          - href: index.qmd
+            text: Home
+          - about.qmd
+      page-footer:
+        left: |
+          **Standort Mannheim**  
+          GESIS - Leibniz-Institut für Sozialwissenschaften  
+          B6, 4-5  
+          68159 Mannheim  
+          Telefon: +49-(0)621-1246-0  
+          Fax: +49-(0)621-1246-100
+        center: |
+          **Standort Köln**  
+          GESIS - Leibniz-Institut für Sozialwissenschaften  
+          Unter Sachsenhausen 6-8  
+          50667 Köln  
+          Telefon: +49-(0)221-47694-0  
+          Fax: +49-(0)221-47694-199
+        right: |
+          ![GESIS ist ein Institut der Leibniz-Gemeinschaft](logos/leibniz_logo_en_white.svg)  
+          Impressum Datenschutz
+    format: gesis-html
+  formats:
+    html:
+      theme: [default, theme.scss]
+      code-overflow: wrap
+      code-line-numbers: true
+
