@@ -1,0 +1,13 @@
+services:
+  quarto:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - type: bind
+        source: .
+        target: /mnt/gesis
+    expose:
+      - "4444"
+    ports:
+      - "4444:4444"
