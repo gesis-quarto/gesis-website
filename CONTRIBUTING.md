@@ -1,6 +1,6 @@
 # Contributing
 
-The quickest way to have this Quarto theme up and running is using Docker. Run
+One way to have this Quarto theme up and running is using Docker. Run
 
 ```bash
 docker compose up
