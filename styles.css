@@ -1,9 +1,0 @@
-/* banner */
-.quarto-title-block {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: start;
-    max-width: 1920px;
-    margin-left: auto;
-    margin-right: auto;
-}
